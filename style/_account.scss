@@ -124,8 +124,7 @@
     text-align: left;
   }
 }
-
-@media (min-width: 100px) and (max-width: 1365px) {
+@media (min-width: 100px) and (max-width: 3000px) {
   .banner-text {
     position: relative;
     top: 0;
@@ -163,10 +162,10 @@
       }
       .l-form {
 
-        //text-align: left;
-        //background-color: #fbfdfe;
-        //border-bottom-left-radius: 3px;
-        //border-bottom-right-radius: 3px;
+        text-align: left;
+        background-color: #fbfdfe;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
         padding: 25px 20px;
       }
     }
