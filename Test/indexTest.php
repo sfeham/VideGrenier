@@ -6,7 +6,9 @@ class indexTest extends TestCase
     /** @test */
     public function testPushAndPop()
     {
+        $router = new Core\Router();
+        $router->add('', ['controller' => 'Home', 'action' => 'index']);
         
-        $this->assertSame(0, 0);
+        $this->assertGreaterThan(0, count($router->routes));
     }
 }
