@@ -6,6 +6,7 @@ class indexTest extends TestCase
     /** @test */
     public function testRouterAdd()
     {
+        // crée router et lui rajoute une route (vendor/bin/phpunit Test)
         $router = new Core\Router();
         $router->add('', ['controller' => 'Home', 'action' => 'index']);
 
